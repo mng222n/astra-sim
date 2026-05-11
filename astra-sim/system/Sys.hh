@@ -296,6 +296,7 @@ class Sys : public Callable {
     int priority_counter;
     uint64_t pending_events;
     int preferred_dataset_splits;
+    double comm_comp_overlap_ratio;
     int concurrent_streams;
     int active_first_phase;
     int max_running;

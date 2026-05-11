@@ -380,11 +380,6 @@ bool Sys::initialize_sys(string name) {
     if (j.contains("preferred-dataset-splits")) {
         preferred_dataset_splits = j["preferred-dataset-splits"];
     }
-    if (j.contains("comm-comp-overlap-ratio")) {
-        comm_comp_overlap_ratio = j["comm-comp-overlap-ratio"];
-    } else {
-        comm_comp_overlap_ratio = 0.0;
-    }
     if (j.contains("peak-perf")) {
         peak_perf = j["peak-perf"];
         peak_perf = peak_perf * 1000000000000;  // TFLOPS
