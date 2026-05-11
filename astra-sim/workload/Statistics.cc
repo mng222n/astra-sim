@@ -192,7 +192,7 @@ void Statistics::extract_comp_comm_overlap() {
         // for analytical ring allreduce
 
         this->comp_comm_overlap =
-            static_cast<Tick>(0.30 * comm_time);
+            static_cast<Tick>(this->sys->comm_comp_overlap_ratio * comm_time);
 
         return;
     }
