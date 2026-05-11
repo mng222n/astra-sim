@@ -22,7 +22,7 @@ class Statistics {
     class OperatorStatistics {
       public:
         static const Tick INVALID_TICK = UINT64_MAX;
-        enum class OperatorType { CPU, GPU, COMM, REMOTE_MEM, REPLAY, INVALID };
+        enum class OperatorType { CPU, GPU, NPU, COMM, REMOTE_MEM, REPLAY, INVALID };
         static OperatorType get_operator_type(
             const std::shared_ptr<Chakra::ETFeederNode> node);
         OperatorStatistics(NodeId node_id,
@@ -96,7 +96,8 @@ class Statistics {
         const std::vector<std::pair<Tick, Tick>>& intervals) const;
     void extract_utilizations();
     void extract_comp_comm_overlap();
-
+    static bool is_compute_operator(
+    OperatorStatistics::OperatorType type);
     std::unordered_map<OperatorStatistics::OperatorType, Tick> type_time;
     Tick wall_time;
     Tick comp_comm_overlap;
