@@ -3,7 +3,7 @@
     "endpoint-delay": 10,
     "active-chunks-per-dimension": 1,
     "preferred-dataset-splits": 16,
-    "comm-comp-overlap-ratio": 0.3,
+    "comm-comp-overlap-ratio": 0.85,
     "all-reduce-implementation": [
         "ring"
     ],
