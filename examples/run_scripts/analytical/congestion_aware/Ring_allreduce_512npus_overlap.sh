@@ -14,7 +14,7 @@ PROJECT_DIR="${SCRIPT_DIR:?}/../../../.."
 EXAMPLE_DIR="${PROJECT_DIR:?}/examples"
 
 # paths
-ASTRA_SIM="${PROJECT_DIR:?}/build/astra_analytical/build/bin/AstraSim_Analytical_Congestion_Aware"
+ASTRA_SIM="${PROJECT_DIR:?}/build/astra_analytical/build/bin/AstraSim_Analytical_Congestion_Unaware"
 WORKLOAD="${EXAMPLE_DIR:?}/workload/microbenchmarks/all_reduce/512npus_64MB/all_reduce"
 SYSTEM="${EXAMPLE_DIR:?}/system/native_collectives/Ring_16chunks_overlap.json"
 NETWORK="${EXAMPLE_DIR:?}/network/analytical/Ring_512npus.yml"

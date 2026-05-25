@@ -1,4 +1,4 @@
-topology: [ Ring ]
-npus_count: [ 512 ]
-bandwidth: [ 500.0 ]  # GB/s
-latency: [ 150000.0 ]  # ns
+topology: [ Ring, Ring ]
+npus_count: [ 16, 32 ]
+bandwidth: [ 500.0, 500.0 ]  # GB/s
+latency: [ 150000.0, 150000.0 ]  # ns
