@@ -2,19 +2,18 @@
     "scheduling-policy": "LIFO",
     "endpoint-delay": 10,
     "active-chunks-per-dimension": 1,
-    "preferred-dataset-splits": 1,
-    "comm-comp-overlap-ratio": 0.0,
+    "preferred-dataset-splits": 16,
     "all-reduce-implementation": [
-        "ring"
+        "halvingDoubling"
     ],
     "all-gather-implementation": [
-        "ring"
+        "halvingDoubling"
     ],
     "reduce-scatter-implementation": [
-        "ring"
+        "halvingDoubling"
     ],
     "all-to-all-implementation": [
-        "ring"
+        "halvingDoubling"
     ],
     "collective-optimization": "localBWAware",
     "local-mem-bw": 1600,
