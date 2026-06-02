@@ -5,7 +5,7 @@
     "preferred-dataset-splits": 16,
     "comm-comp-overlap-ratio": 0.85,
     "all-reduce-implementation": [
-        "ring","ring"
+        "doubleBinaryTree","doubleBinaryTree"
     ],
     "all-gather-implementation": [
         "ring"
