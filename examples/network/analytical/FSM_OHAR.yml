@@ -1,4 +1,0 @@
-topology: [ Ring, Ring ]
-npus_count: [ 4, 4 ]
-bandwidth: [ 50.0, 60.0 ]  # GB/s
-latency: [ 500.0, 600.0 ]  # ns
