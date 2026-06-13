@@ -16,8 +16,8 @@ EXAMPLE_DIR="${PROJECT_DIR:?}/examples"
 # paths
 ASTRA_SIM="${PROJECT_DIR:?}/build/astra_analytical/build/bin/AstraSim_Analytical_Congestion_Unaware"
 WORKLOAD="${EXAMPLE_DIR:?}/workload/microbenchmarks/all_reduce/512npus_64MB/all_reduce"
-SYSTEM="${EXAMPLE_DIR:?}/system/native_collectives/FSM_OHAR.json"
-NETWORK="${EXAMPLE_DIR:?}/network/analytical/FSM_OHAR.yml"
+SYSTEM="${EXAMPLE_DIR:?}/system/native_collectives/OHAR_FSM_Mesh.json"
+NETWORK="${EXAMPLE_DIR:?}/network/analytical/FSM_OHAR_Mesh.yml"
 REMOTE_MEMORY="${EXAMPLE_DIR:?}/remote_memory/analytical/no_memory_expansion.json"
 
 # start
