@@ -20,7 +20,7 @@
         "ring",
         "ring"
     ],
-    "collective-optimization": "localBWAware",
+    "collective-optimization": "baseline",
     "local-mem-bw": 1600,
     "boost-mode": 0,
     "roofline-enabled": 0,
