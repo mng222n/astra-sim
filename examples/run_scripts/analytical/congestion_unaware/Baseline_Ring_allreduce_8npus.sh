@@ -15,9 +15,9 @@ EXAMPLE_DIR="${PROJECT_DIR:?}/examples"
 
 # paths
 ASTRA_SIM="${PROJECT_DIR:?}/build/astra_analytical/build/bin/AstraSim_Analytical_Congestion_Unaware"
-WORKLOAD="${PROJECT_DIR:?}/collectiveapi/demo_allreduce/mscclang_graph"
+WORKLOAD="${EXAMPLE_DIR:?}/workload/microbenchmarks/all_reduce/8npus_1MB/all_reduce"
 SYSTEM="${EXAMPLE_DIR:?}/system/native_collectives/Ring_4chunks.json"
-NETWORK="${EXAMPLE_DIR:?}/network/analytical/Ring_4npus.yml"
+NETWORK="${EXAMPLE_DIR:?}/network/analytical/Ring_8npus.yml"
 REMOTE_MEMORY="${EXAMPLE_DIR:?}/remote_memory/analytical/no_memory_expansion.json"
 
 # start
