@@ -1,0 +1,4 @@
+topology: [ Ring, Switch ]
+npus_count: [ 16, 32 ]
+bandwidth: [ 500.0, 50.0 ]  # GB/s
+latency: [ 1000.0, 5000.0 ]  # ns
