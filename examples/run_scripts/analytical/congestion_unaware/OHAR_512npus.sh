@@ -15,7 +15,6 @@ EXAMPLE_DIR="${PROJECT_DIR:?}/examples"
 
 # paths
 ASTRA_SIM="${PROJECT_DIR:?}/build/astra_analytical/build/bin/AstraSim_Analytical_Congestion_Unaware"
-# WORKLOAD="./extern/graph_frontend/one_comm_recv_node"
 WORKLOAD="${EXAMPLE_DIR:?}/workload/microbenchmarks/reduce_scatter/512npus_1024MB/reduce_scatter"
 SYSTEM="${EXAMPLE_DIR:?}/system/native_collectives/OHAR_LRS_IRS.json"
 NETWORK="${EXAMPLE_DIR:?}/network/analytical/OHAR_2d_Mesh_512gpus.yml"
